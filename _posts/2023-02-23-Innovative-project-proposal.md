@@ -41,8 +41,9 @@ This homework is to propose an innovative project and describe the key features,
 
 ### 系統方塊圖
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_kitchen_robot.png?raw=true)
+
 ---
-###參考範例
+### 參考範例
 <iframe width="1239" height="697" src="https://www.youtube.com/embed/VGj3daiFNdM" title="CEATEC JAPAN 2018: 全自動お片付けロボットシステム（Autonomous Tidying-up Robot System）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
