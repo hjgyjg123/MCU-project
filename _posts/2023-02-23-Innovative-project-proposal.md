@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Innovative Project Proposal
-author: [Richard Kuo]
+author: [chen]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
@@ -20,7 +20,8 @@ This homework is to propose an innovative project and describe the key features,
   - Draw a System Block Diagram
 
 ---
-## 家用料理機器人
+## 藍芽遙控機器人
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32_RoboCar.jpg?raw=true)
 
 ### 應用功能說明
 1. 操作廚具：咖啡機＋果汁機＋烤麵包機＋微波爐+烤箱+氣炸鍋
@@ -40,7 +41,9 @@ This homework is to propose an innovative project and describe the key features,
 
 ### 系統方塊圖
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_kitchen_robot.png?raw=true)
-
+---
+###參考範例
+<iframe width="1239" height="697" src="https://www.youtube.com/embed/VGj3daiFNdM" title="CEATEC JAPAN 2018: 全自動お片付けロボットシステム（Autonomous Tidying-up Robot System）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 ## Market Analysis (市場分析)
