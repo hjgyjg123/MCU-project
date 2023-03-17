@@ -48,7 +48,6 @@ This homework is to propose an innovative project and describe the key features,
 5. 自主運動與導航技術
 
 ### 系統方塊圖
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_kitchen_robot.png?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%E5%89%B5%E6%96%B0%E4%BD%9C%E6%A5%AD%E8%A8%AD%E8%A8%88.png?raw=true)
 
 ---
