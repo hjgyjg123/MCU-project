@@ -20,27 +20,36 @@ This homework is to propose an innovative project and describe the key features,
   - Draw a System Block Diagram
 
 ---
-## 藍芽遙控機器人
+## 藍芽智能家居機器人
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/2023-1.png?raw=true)
 
 ### 應用功能說明
-1. 操作廚具：咖啡機＋果汁機＋烤麵包機＋微波爐+烤箱+氣炸鍋
-2. 存取冰箱：辨識食物, 存放食材，或取出食材, 送至廚具
+1. 處理家庭事務:打掃房間、收拾碗盤、倒垃圾、煮飯等等
+2. 操作工具:鍋具、掃具
+3. 人機互動:依照使用者的命令，執行相應的指令
+4. 遠端操控:透過手機或電腦進行遠距離操控
+5. 購物功能:透過網路連接到購物網站進行購物
+6. 人工智能:可自行判斷要事順序，並自主執行，且能自主學習，明白使用者的習慣
+7. 娛樂功能:可播放音樂、影片
 
 ### 設計考量與相關技術
 **系統設計考量：**<br>
-1. 操作方式:垂直升降式手臂 or 懸吊式手臂
-2. 移動方式:兩輪 or 滑軌懸吊
-3. 供電方式:鋰電池
+1. 操作方式:垂直升降式手臂 
+2. 移動方式:兩輪 
+3. 供電方式:鋰電池、無線or有線充電
 4. 聯網方式:WiFi或BT to 手機
+5. 交互方式:語言輸入+介面操控
 
 **所需相關技術：**
 1. 滑軌式機器手臂 ＆ 軟式夾具
-2. 食物辨識分類：Jetson-Nano + IMX219
-3. 電子鼻：氣味感測與辨識 MQ2
+2. 物體辨識分類：Jetson-Nano + IMX219
+3. AI技術
+4. 語音識別技術
+5. 自主運動與導航技術
 
 ### 系統方塊圖
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_kitchen_robot.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%E5%89%B5%E6%96%B0%E4%BD%9C%E6%A5%AD%E8%A8%AD%E8%A8%88.png?raw=true)
 
 ---
 ### 參考範例
