@@ -32,7 +32,9 @@ This project is to implement a bluetooth remote controlled robotcar.
 ![](https://image.ruten.com.tw/g2/8/d4/16/21440347657238_872.jpg)
 
 ### 系統方塊圖
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/FutureHome_kitchen_robot.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/%E8%97%8D%E8%8A%BD%E6%A9%9F%E5%99%A8%E4%BA%BA.jpg?raw=true)
+
+### Arduino程式碼
 
 ### 實作影片
 <iframe width="329" height="586" src="https://www.youtube.com/embed/1DGSCxA9pBQ" title="藍芽遙控車" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
