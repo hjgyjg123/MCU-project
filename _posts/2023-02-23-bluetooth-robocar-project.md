@@ -28,7 +28,8 @@ This project is to implement a bluetooth remote controlled robotcar.
 1. MIT App Inventor 2 手機程式設計 
 2. Arduino程式設計
 
-**所需相關套件:**
+**所需相關套件: **
+
 ![](https://image.ruten.com.tw/g2/8/d4/16/21440347657238_872.jpg)
 
 ### 系統方塊圖
