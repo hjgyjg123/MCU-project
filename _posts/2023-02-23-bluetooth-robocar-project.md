@@ -22,7 +22,7 @@ This project is to implement a bluetooth remote controlled robotcar.
 1. 操作方式:藍牙遙控手機App
 2. 移動方式:兩輪 
 3. 供電方式:鋰電池 3.7V x2
-4. 聯網方式:藍牙
+4. 聯網方式:藍牙 or WI-FI
 
 **所需相關技術：**
 1. MIT App Inventor 2 手機程式設計 
