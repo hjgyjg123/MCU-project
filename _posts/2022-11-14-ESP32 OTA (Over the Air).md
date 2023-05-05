@@ -6,24 +6,26 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 ---
-## OTA (Over the Air)
+## ESP32 OTA (Over the Air)
 
-### AsyncElegantOTA ESP32 Basic Example
+### AsyncElegantOTA ESP32 
+##  AsyncElegantOTA程式碼
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%20OTA%20(Over%20the%20Air)%201.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%20OTA%20(Over%20the%20Air)%202.jpg?raw=true)
 
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Elegant-OTA-Demo-Example-Root-URL.png?w=603&quality=100&strip=all&ssl=1)
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Async-ElegantOTA-Update-Page.png?w=789&quality=100&strip=all&ssl=1)
+## eb_Server_LED_OTA_ESP32程式碼
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%201.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%202.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%203.jpg?raw=true)
+
+## 結果展示
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a1.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a2.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a3.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a4.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a5.jpg?raw=true)
 
 ---
-### Sketch > Export Compiled Binary 
-
-4. Now,youneed to upload that file using the ElegantOTA page. Go to your ESP IP address followed by /update. Make sure you have the firmware option selected. Click on Choose File and select the .bin file you’ve just generated.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Uploading-new-firmware-elegantOTA.png?w=988&quality=100&strip=all&ssl=1)  
-5. When it’s finished, click on the Back button.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/upload-new-firmware-elegantOTA-success.png?w=789&quality=100&strip=all&ssl=1)  
-6. Then, you can go to the root (/) URL to access the new web server.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/WebSocket-Server-ESP32-Control-Outputs.png?w=789&quality=100&strip=all&ssl=1)
-
-
 <br>
 <br>
 
