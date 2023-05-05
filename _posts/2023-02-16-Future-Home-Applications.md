@@ -9,57 +9,6 @@ tags: [jekyll, ai]
 Introduction to Networking, ESP32 WiFi, and examples of Webserver, Ngrok tunneling, OTA (Over-the-Air).
 
 ---
-## Network
-* Home
-![](https://www.slidegeeks.com/pics/dgm/l/1/1_network_diagram_showing_a_fully_connected_home_connected_to_the_internet_ppt_slides_1.jpg)
-* School/Office
-![](https://images.squarespace-cdn.com/content/v1/52f42657e4b0b3416ff6b831/1395281885979-YJUYEGEB75LS7J9AWLZH/Simple+Network+Diagram?format=750w)
-* Hotel
-![](https://img-en.fs.com/images/fs_scene_images/20201102/16042847555f9f7153706dd0.36036831.jpeg)
-* WiFi Access Point
-![](https://www.netgear.com/dk/media/HeroImage_tcm164-112442.png)
-* Router
-![](https://m.media-amazon.com/images/I/611BfAThAxL._AC_SX679_.jpg)
-* Switch
-![](https://m.media-amazon.com/images/I/513OnE3alnL._AC_SX679_.jpg)
-![](https://watermark.lovepik.com/photo/20211125/large/lovepik-switches-in-the-computer-room-picture_500986669.jpg)
-* [Enterprise Router](https://www.cisco.com/c/en/us/products/routers/router-selector.html)
-![](https://www.cisco.com/c/dam/assets/prod/product-selector/routers/isr-112x-8p.png)
-* ISP (Internet Service Provider)
-![](https://5.imimg.com/data5/CC/LG/MY-32799687/cisco-service-provider-core-router-500x500.jpg)
-
----
-### WiFi Generations
-![](https://i3.res.bangqu.com/farm/huxiu/news/2022/05/05/b05f886f1c148e447831efa9b13ddb44.png)
-
----
-## ESP32
-### ESP32 Specification
-* Single or Dual-Core 32-bit LX6 Microprocessor with clock frequency up to 240 MHz.
-* 520 KB of SRAM, 448 KB of ROM and 16 KB of RTC SRAM.
-* Supports 802.11 b/g/n Wi-Fi connectivity with speeds up to 150 Mbps.
-* Support for both Classic Bluetooth v4.2 and BLE specifications.
-* 34 Programmable GPIOs.
-* Up to 18 channels of 12-bit SAR ADC and 2 channels of 8-bit DAC
-* Serial Connectivity include 4 x SPI, 2 x I2C, 2 x I2S, 3 x UART.
-* Ethernet MAC for physical LAN Communication (requires external PHY).
-* 1 Host controller for SD/SDIO/MMC and 1 Slave controller for SDIO/SPI.
-* Motor PWM and up to 16-channels of LED PWM.
-* Secure Boot and Flash Encryption.
-* Cryptographic Hardware Acceleration for AES, Hash (SHA-2), RSA, ECC and RNG.
-
-### NodeMCU-32S pinout
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/NodeMCU-32S_pinout.jpg?raw=true)
-
-### WiFi modes
-<table>
-<tr><td>Syntex</td><td>Mode</td><td>功能</td></tr>
-<tr><td>WIFI.mode(WIFI_AP)</td><td>Access Point(AP)</td><td>ESP32可以讓其他設備透過wifi接入(就像家裡的wifi基地台)</td></tr>
-<tr><td>WIFI.mode(WIFI_STA)</td><td>Station (STA)</td><td>無線終端模式，也就是讓ESP32可以連接上其他的熱點</td></tr>
-<tr><td>WIFI.mode(WIFI_AP_STA)</td><td>AP+STA</td><td>將ESP32設置成兩個模式並存</td></tr>
-<tr><td>WIFI.mode(WIFI_OFF)</td><td>OFF</td><td>關閉wifi</td></tr>
-</table>
-
 ### [Homework]: ESP32_WiFi_STA.ino
 ```
 #include<WiFi.h>
