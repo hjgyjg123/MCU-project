@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ESP32 WiFi
+title: ESP32 IoT webserver & client
 author: [chen]
 category: [Lecture]
 tags: [jekyll, ai]
