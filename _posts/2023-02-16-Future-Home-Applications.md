@@ -1,84 +1,11 @@
 ---
 layout: post
 title: ESP32 WiFi
-author: [Richard Kuo]
+author: [chen]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-Introduction to Networking, ESP32 WiFi, and examples of Webserver, Ngrok tunneling, OTA (Over-the-Air).
-
----
-### [Homework]: ESP32_WiFi_STA.ino
-```
-#include<WiFi.h>
-
-const char ssid[]="WiFi網路名稱"; //修改為你家的WiFi網路名稱
-const char pwd[]="WiFi密碼"; //修改為你家的WiFi密碼
-
-void setup() {
-  Serial.begin(115200);
-
-  WiFi.mode(WIFI_STA); //設置WiFi模式
-  WiFi.begin(ssid,pwd); 
-
-  Serial.print("WiFi connecting");
-
-  //當WiFi連線時會回傳WL_CONNECTED，因此跳出迴圈時代表已成功連線
-  while(WiFi.status()!=WL_CONNECTED){
-    Serial.print(".");
-    delay(500);   
-  }
-
-  Serial.println("");
-  Serial.print("IP位址:");
-  Serial.println(WiFi.localIP()); //讀取IP位址
-  Serial.print("WiFi RSSI:");
-  Serial.println(WiFi.RSSI()); //讀取WiFi強度
-  
-
-}
-
-void loop() {
-}
-```
-
-### Examples>WebServer>HelloServer
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Examples_WebServer_HelloServer.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Examples_WebServer_HelloServer_monitor.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Examples_WebServer_HelloServer_browser1.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Examples_WebServer_HelloServer_browser2.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Examples_WebServer_HelloServer_browser3.png?raw=true)
-
----
-### Sketch>ESP32_Webserver_GPIO
-[ESP32_Webserver_GPIO.ino](https://github.com/rkuo2000/arduino/blob/master/examples/ESP32/ESP32_Webserver_GPIO/ESP32_Webserver_GPIO.ino)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_GPIO.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_GPIO_browser.png?raw=true)
-
----
-### [Homework] ESP32_Webserver_LED.ino
-* modify ESP32_Webserver_GPIO to control GPIO2 for on-board LED
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_LED_browser.png?raw=true)
-
----
-### Sketch>ESP32_Webserver_Ngrok
-[ESP32_Webserver_Ngrok.ino](https://github.com/rkuo2000/arduino/blob/master/examples/ESP32/ESP32_Webserver_Ngrok/ESP32_Webserver_Ngrok.ino)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_Ngrok.png?raw=true)
-
----
-### [Homework] Ngork tunneling with ESP32_Webserver
-* [ngrok.com](https://ngrok.com) register & download ngrok.exe, & get [Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken)
-* PC Command Prompt (CMD.exe)<br>
-`ngork tcp 192.168.1.12:80 --authtoken YOUR_NGROK_AUTHTOKEN`<br>
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/ngrok_tcp.png?raw=true)
-* Open Browser at 0.tcp.jp.ngrok.io:17536 (ngrok tcp address shown in above window)
-  - If ESP32 running ESP32_Webserver_LED.ino
-  ![](https://github.com/rkuo2000/MCU-course/blob/main/images/ngrok_ESP32_Webserver_LED.png?raw=true)
-  - If ESP32 running ESP32_Webserver_Ngrok.ino
-  ![](https://github.com/rkuo2000/MCU-course/blob/main/images/ngrok_ESP32_Webserver_Ngrok.png?raw=true)
-
----
 ### Sketch>ESP32_Webserver_IoT
 * [ESP32_Webserver_IoT.ino](https://github.com/rkuo2000/arduino/blob/master/examples/ESP32/ESP32_Webserver_IoT/ESP32_Webserver_IoT.ino)
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_IoT.png?raw=true)
