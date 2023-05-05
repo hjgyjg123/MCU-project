@@ -6,33 +6,23 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-### Sketch>ESP32_Webserver_IoT
-* [ESP32_Webserver_IoT.ino](https://github.com/rkuo2000/arduino/blob/master/examples/ESP32/ESP32_Webserver_IoT/ESP32_Webserver_IoT.ino)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_IoT.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_IoT_monitor.png?raw=true)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webserver_IoT_browser.png?raw=true)
+### ESP32_Webserver_IoT
+## 程式碼
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%201.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%202.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%203.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%204.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%205.jpg?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%206.jpg?raw=true)
+
+## 結果1
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%20a1.png?raw=true)
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%20a2.png?raw=true)
+## 結果2
 
 ### Sketch>ESP32_Webclient_IoT_HTU21DF
 * [ESP32_Webclient_IoT_HTU21DF.ino](https://github.com/rkuo2000/arduino/blob/master/examples/ESP32/ESP32_Webclient_IoT_HTU21DF/ESP32_Webclient_IoT_HTU21DF.ino)
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sketch_ESP32_Webclient_IoT_HTU21DF.png?raw=true)
-
----
-## OTA (Over the Air)
-
-### AsyncElegantOTA ESP32 Basic Example
-
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Elegant-OTA-Demo-Example-Root-URL.png?w=603&quality=100&strip=all&ssl=1)
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Async-ElegantOTA-Update-Page.png?w=789&quality=100&strip=all&ssl=1)
-
----
-### Sketch > Export Compiled Binary 
-
-4. Now,youneed to upload that file using the ElegantOTA page. Go to your ESP IP address followed by /update. Make sure you have the firmware option selected. Click on Choose File and select the .bin file you’ve just generated.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/Uploading-new-firmware-elegantOTA.png?w=988&quality=100&strip=all&ssl=1)  
-5. When it’s finished, click on the Back button.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/upload-new-firmware-elegantOTA-success.png?w=789&quality=100&strip=all&ssl=1)  
-6. Then, you can go to the root (/) URL to access the new web server.
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/WebSocket-Server-ESP32-Control-Outputs.png?w=789&quality=100&strip=all&ssl=1)
 
 ---
 <br>
