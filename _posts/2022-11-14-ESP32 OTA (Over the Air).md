@@ -7,7 +7,24 @@ tags: [jekyll, ai]
 ---
 ---
 ## ESP32 OTA (Over the Air)
- 
+### 應用功能說明
+1. WiFi遠端控制 
+2. WIFI聯網到OTA，透過手機將檔案載到ESP32
+
+### 設計考量與相關技術
+**系統設計考量：**<br>
+1. 操作方式:WiFI遙控手機App
+2. 元件:ESP32
+3. 聯網方式:WI-FI
+
+**所需相關技術：** 
+1. Arduino程式設計
+
+
+### 系統方塊圖
+![](https://github.com/hjgyjg123/MCU-project/blob/main/images/OTA%E7%B3%BB%E7%B5%B1%E6%96%B9%E5%A1%8A%E5%9C%96.jpg?raw=true)
+
+
 ###  AsyncElegantOTA程式碼
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%20OTA%20(Over%20the%20Air)%201.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/ESP32%20OTA%20(Over%20the%20Air)%202.jpg?raw=true)
@@ -26,6 +43,8 @@ tags: [jekyll, ai]
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a4.png?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%20a5.jpg?raw=true)
 
+### 實作影片
+<iframe width="329" height="586" src="https://www.youtube.com/embed/1YZVsSbFLMQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---
 <br>
 <br>
