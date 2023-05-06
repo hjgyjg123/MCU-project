@@ -9,11 +9,11 @@ tags: [jekyll, ai]
 ## ESP32 OTA (Over the Air)
 ### 應用功能說明
 1. WiFi遠端控制 
-2. WIFI聯網到OTA，透過手機將檔案載到ESP32
+2. WIFI聯網到OTA，透過手機or筆電將檔案載到ESP32
 
 ### 設計考量與相關技術
 **系統設計考量：**<br>
-1. 操作方式:WiFI遙控手機App
+1. 操作方式:WiFI遙控手機or筆電
 2. 元件:ESP32
 3. 聯網方式:WI-FI
 
