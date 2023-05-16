@@ -35,6 +35,13 @@ tags: [jekyll, ai]
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%204.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%205.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%206.jpg?raw=true)
+**webserver程式碼功能**
+1. 在程式的開頭，include必要的函式庫並設置了WiFi連接的SSID和密碼，創建了一個WebServer物件，並將其綁定到80端口
+2. 定義一些HTML代碼的字符串，用於生成網頁。定義了一些變數來存儲感測器的數據，如溫度、濕度和PM2.5顆粒物數據等
+3. 在handleRoot()函數中，用於處理根路徑的請求，它會返回一個HTML頁面，其中包含感測器數據的表格
+4. dht22()、htu21()和pm25()函數分別用於處理/dht22、/htu21和/pm25路徑的請求。這些函數解析URL中的參數，並將數據存儲到對應的變數中。然後，它們返回更新後的HTML頁面，顯示最新的感測器數據
+5. 在setup()函數中，我們初始化串口並連接到WiFi網絡。然後，設置伺服器的路由處理函數。最後，我們啟動伺服器
+6. 在loop()函數中，我們通過調用server.handleClient()來處理網頁用戶端的請求。這使得伺服器能夠不斷接收並處理請求
 
 ### webclient程式碼
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webclient%2001.jpg?raw=true)
