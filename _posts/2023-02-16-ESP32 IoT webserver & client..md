@@ -35,6 +35,7 @@ tags: [jekyll, ai]
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%204.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%205.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver_IOT%206.jpg?raw=true)
+
 **webserver程式碼功能**
 1. 在程式的開頭，include必要的函式庫並設置了WiFi連接的SSID和密碼，創建了一個WebServer物件，並將其綁定到80端口
 2. 定義一些HTML代碼的字符串，用於生成網頁。定義了一些變數來存儲感測器的數據，如溫度、濕度和PM2.5顆粒物數據等
@@ -46,6 +47,14 @@ tags: [jekyll, ai]
 ### webclient程式碼
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webclient%2001.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webclient%2002.jpg?raw=true)
+
+**webclient程式碼功能**
+1. include必要的函式庫：WiFi、WiFiClient、HTTPClient、Wire和Adafruit_HTU21DF
+2. 設定連接的WiFi網絡名稱（SSID）和密碼，並連接到WiFi
+3. 初始化HTU21DF傳感器：檢查是否成功初始化HTU21DF溫濕度傳感器，如果無法找到傳感器，則進入無窮迴圈
+3. loop函式：程式延遲5秒，然後讀取HTU21DF傳感器的溫度和濕度數據，並構建URL，使用Webserver的IP地址，構建發送數據的URL，將溫度和濕度數據附加到URL的查詢參數中
+4. 檢查WiFi連接狀態：檢查是否成功連接到WiFi，如果WiFi連接成功，則使用HTTPClient類的物件來發送POST請求，請求的目標URL是之前構建的URL，請求的內容為"Message from ESP32"
+5. 獲取請求的回應：獲取HTTP回應的狀態碼和回應內容，並將其輸出到序列埠，再來關閉HTTP連接，在每次迴圈結束後，程式會延遲1分鐘，然後再次進入下一輪迴圈，不斷接收數據
 
 ### 結果
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/webserver%202.jpg?raw=true)
