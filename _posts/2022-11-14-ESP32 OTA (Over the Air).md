@@ -39,6 +39,7 @@ tags: [jekyll, ai]
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%201.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%202.jpg?raw=true)
 ![](https://github.com/hjgyjg123/MCU-project/blob/main/images/eb_Server_LED_OTA_ESP32%203.jpg?raw=true)
+
 **eb_Server_LED_OTA_ESP32程式碼功能**
 1. include所需的函式庫，包括 Arduino.h、WiFi.h、AsyncTCP.h、ESPAsyncWebServer.h 和 AsyncElegantOTA.h。這些函式庫提供了連接無線網路、建立網頁伺服器和執行 OTA (Over-The-Air) 更新的功能
 2. 變數宣告 : 定義了要連接到的 Wi-Fi 網路的 SSID 和密碼
