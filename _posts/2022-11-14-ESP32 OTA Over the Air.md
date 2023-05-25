@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ESP32 OTA (Over the Air)
+title: ESP32 OTA Over the Air
 author: [chen]
 category: [Lecture]
 tags: [jekyll, ai]
